@@ -7,7 +7,7 @@
 }
 
 .navbar {
-    background: #ECEE81;
+    background: #5B0888;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -29,8 +29,8 @@
 }
 
 #navbar__logo {
-    background-color: #ECEE81;
-    background-image: linear-gradient(to top, #8DDFCB 0%, #82A0D8 100%);
+    background-color: #713ABE;
+    background-image: linear-gradient(to top, #E5CFF7 0%, #9D76C1 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -79,13 +79,13 @@
    outline: none;
    border-radius: 4px; 
    background: #833ab4;
-   background: -webkit-linear-gradient(to right, #c3c565, #8DDFCB, #82A0D8 );
-   background: linear-gradient(to right, #FFCC70, #82A0D8, #EDB7ED);
+   background: -webkit-linear-gradient(to right, #E5CFF7, #9D76C1, #713ABE );
+   background: linear-gradient(to right, #E5CFF7, #9D76C1, #EDB7ED);
    color: #fff;
    transition: all 0.3s ease;
 }
 .navbar__links:hover {
-    color: #9518fc;
+    color: #713ABE;
     transition: all 0.3s ease;
 }
 
@@ -168,7 +168,7 @@
 }
 
 .section {
-    color: #82A0D8;
+    color: #9D76C1;
     text-align: center; 
     font-family: sans-serif;
     height: 80%;
@@ -179,25 +179,29 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 50%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 .homeTitle {
-    color: #82A0D8;
+    color: #9D76C1;
     text-align: center; 
     font-family: sans-serif;
     height: 80%;
     width: 100%;
 }
 .aboutTitle {
-    color: #82A0D8;
+    color: #9D76C1;
     text-align: center; 
     font-family: sans-serif;
     height: 80%;
     width: 100%;
+    background-color: #E5CFF7;
 }
 p {
     text-align: center;
     width: center;
+}
+body {
+    background-color: #E5CFF7;
 }
